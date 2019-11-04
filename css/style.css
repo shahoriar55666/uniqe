@@ -1,0 +1,718 @@
+
+                                    /*  Index.html CSS Code Start */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,500,600,700,800,900|Maven+Pro:400,500,700,900&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+
+    font-family: 'Libre Franklin','Maven Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+p{
+	font-family: 'Libre Franklin','Maven Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+h1 h2 h3 h4 h5 h6 {
+	font-family: 'Libre Franklin','Maven Pro', sans-serif;
+    
+}
+a{
+	font-family: 'Libre Franklin','Maven Pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+.header-section{
+ 	width:100%;
+ 	background: url(../img/hero.png) center top no-repeat;
+ 	background-size: 100%;
+ 	background-attachment: all;
+    height: 800px;
+ 	
+ }
+ 
+.header-section .bg-light {
+ 	background: transparent !important ;
+ }
+.header-section .navbar-brand img{
+    height: 120px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+    color: #511de5;
+    background: url(../img/active.png) left bottom no-repeat;
+    font-size: 14px;
+    font-weight: 600; 
+    margin-left: 10px;
+    padding-left: 13px;  
+ }
+.header-section .navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+ .header-section .navbar .btn-info{
+    background: linear-gradient(to right , #511de5,#511de5, #0c8bfb );
+    color: #fff;
+    padding: 10px 45px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 30px;
+
+ }
+.header-section .navbar-nav .nav-item {
+    margin-left: 10px;
+    padding-left: 8px;
+ }
+.header-section .navbar-nav .s-bold{
+   font-weight: 700;
+}
+.hero{
+    text-align: right;
+    width: 100%;
+    padding: 180px 0px 180px 0px; 
+}
+
+.hero h1{
+    font-size: 56px;
+    line-height: 61px;
+    font-weight: 400;
+
+}
+.hero span{
+    color: #511de5;
+
+}
+.hero .btn-info{
+    background: #f2f2f2;
+    color: #000;
+    padding: 10px 35px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+.highlight-section {
+    width: 100%;
+    padding: 60px 0px;
+    background: url(../img/highlight.png) center top no-repeat;
+    background-size:cover;
+
+}
+.highlight-section img{
+    position: absolute;
+    top: -150px;
+    left: -5px;
+}
+.highlight-section h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #fff;
+
+}
+.feature-section{
+    width: 100%;
+    padding: 80px 0px 20px 0px;
+
+}
+.feature-inner{
+    width: 100%;
+    padding: 80px 0px 100px 80px;
+    box-shadow: 2px 4px 10px #ccc ;
+    background: url(../img/basekit.png) bottom right no-repeat;
+
+
+}
+.feature-inner h1 {
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 800;
+}
+.feature-inner p{
+    margin: 20px 0px ;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+
+
+.feature-inner .s-text{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 700;
+    margin: 50px 0px;
+    background: linear-gradient(to right , #511de5,#511de5, #0c8bfb );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+
+}
+.feature-inner .p-text{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.client{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+
+}
+.client img{
+    width: 100%;
+}
+
+.introducing{
+    width: 100%;
+    background: url(../img/bg.png) center top no-repeat ;
+    background-size: cover;
+    padding: 230px 0px 200px 0px;
+}
+.intro-inner-img{
+    width: 100%;
+    position: relative;
+}
+.intro-inner-img img{
+    width: 100%;
+}
+.intro-text{
+    position: absolute;
+    top: 38%;
+    left: 32%;
+}
+.intro-text p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+
+}
+.intro-text .cb{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+.intro-right{
+    width: 100%;
+    padding-top: 76px;
+}
+.intro-right h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.intro-right .btn-info{
+    background:#f2f2f2;
+    color: #000;
+    padding: 10px 35px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 35px;
+    letter-spacing: 5px;
+}
+.efficiency{
+    widows: 100%;
+    padding: 80px 0px;
+
+}
+.efficiency-left{
+    widows: 100%;
+    padding-top: 35px;
+
+}
+.efficiency-left h2 {
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.efficiency-left p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.efficiency-left ul{
+    list-style: none;
+    margin: 30px 0px;
+
+}
+.efficiency-left ul li {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0px;
+
+}
+.efficiency-left ul li img {
+    margin-right: 25px;
+    
+}
+.efficiency-left .btn-info{
+    background: linear-gradient(to right , #511de5,#511de5, #0c8bfb );
+    color: #fff;
+    padding: 10px 35px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 35px;
+    letter-spacing: 5px;
+}
+.efficiency-right{
+    widows: 100%;
+
+}
+.efficiency-right img{
+    widows: 100%;
+}
+
+.design-index{
+    width: 100%;
+    text-align: center;
+    background: #f2f2f2;
+}
+.design-index a{
+    text-decoration: none;
+
+}
+.design-index h2{
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 500;
+    margin: 30px 0px;
+    color: #000;
+}
+
+.quotes-index{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 25px 0px;
+    background: #f2f2f2;
+}
+.quotes-index a{
+    text-decoration: none;
+
+}
+.quotes-index h2{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    margin: 30px 0px;
+    color: #000;
+}
+
+.footer-section{
+    width: 100%;
+    padding: 80px 0px ;
+    background: url(../img/footer.png) center top no-repeat;
+    background-size: cover;
+
+}
+.footer-section .faq{
+    width: 100%;
+    padding: 90px 80px;
+    background: #fff;
+    box-shadow: 1px 3px 10px #ccc;
+
+}
+.footer-section .faq h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.faq-inner{
+    width: 100%;
+    padding: 45px 0px 0px 0px ;
+}
+.faq-inner .card{
+    border: 0px solid rgba(0,0,0, .125);
+}
+
+.faq-inner .card-header{
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    background-color: transparent !important ;
+    border-bottom: 1px solid rgba(0,0,0, .125);
+
+}
+.faq-inner .card-header .btn{
+    padding: 10px 0px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.faq-inner .btn-link:hover {
+    color: #08c;
+    text-decoration: none;
+
+}
+
+.faq-inner .btn-link.focus, .faq-inner .btn-link:focus {
+    text-decoration: none;
+    color: #08c;
+    box-shadow: none;
+
+}
+
+.faq-inner .card-body{
+    padding: 10px 0px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.bottom-footer-left{
+    width: 100%;
+    padding: 60px 0px 0px 0px ;
+}
+.bottom-footer-left ul{
+    list-style: none;
+}
+.bottom-footer-left ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.bottom-footer-left ul li a{
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.bottom-footer-right{
+    width: 100%;
+    padding: 60px 0px 0px 0px ;
+}
+.bottom-footer-right p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff
+}
+
+.navbar-wrapper {        
+    margin:0px;     
+    position: relative;     
+    z-index: 15;  
+} 
+.isStuck{     
+    left:0px;     
+    width:100%;     
+    background: rgba(255,255,255, 0.8);  
+}
+
+
+
+
+
+                                            /*  Index.html CSS Code End */
+
+
+
+                                            /* Media Query Start Here */ 
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+} 
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+
+
+
+
+ 
+                                            /* Media Query End Here */ 
+
+                                            /*  Feedback.html CSS Code Start */
+
+                                            
+                                            /* Header-section CSS Starts Here */
+
+
+.f-header{
+    width:100%;
+    background: #fff;
+    background-size: 100%;
+    height: 200px;
+    
+ }
+.f-header .bg-light {
+    background: transparent !important ;
+ }
+.f-header .navbar-brand img{
+    height: 120px;
+}
+
+.f-header .navbar-light .navbar-nav .active>.nav-link{
+    color: #511de5;
+    background: url(../img/active.png) left bottom no-repeat;
+    font-size: 14px;
+    font-weight: 600; 
+    margin-left: 10px;
+    padding-left: 13px;  
+ }
+.f-header .navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+ .f-header .navbar .btn-info{
+    background: linear-gradient(to right , #511de5,#511de5, #0c8bfb );
+    color: #fff;
+    padding: 10px 45px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 30px;
+
+ }
+.f-header .navbar-nav .nav-item {
+    margin-left: 10px;
+    padding-left: 8px;
+ }
+.f-header .navbar-nav .s-bold{
+   font-weight: 700;
+}
+
+
+                        /* Header-section CSS Ends Here */
+
+                        /* Design Feedback CSS Starts Here */
+
+.design-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #fcfcfc;
+    text-align: center;
+}
+.design-section h2{
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.design-section p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.design-inner{
+    margin-top: 50px ;
+}
+
+.design-inner img{
+
+}
+.design-inner h4{
+    font-size: 22px;
+    margin: 25px 0px ;
+    font-weight: 700;
+
+}
+.design-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000;
+}
+ .bdr{
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+
+                        /* Design Feedback CSS Ends Here */
+
+                        /*(feedback.html CSS Ends Here */
+
+
+
+
+
+                        /*(inspirational-quotes.html CSS Starts Here */
+
+                        /* Header-section CSS Starts Here */
+
+.i-header{
+    width:100%;
+    background: #fff;
+    background-size: 100%;
+    height: 200px;
+    
+ }
+.i-header .bg-light {
+    background: transparent !important ;
+ }
+.i-header .navbar-brand img{
+    height: 120px;
+}
+
+.i-header .navbar-light .navbar-nav .active>.nav-link{
+    color: #511de5;
+    background: url(../img/active.png) left bottom no-repeat;
+    font-size: 14px;
+    font-weight: 600; 
+    margin-left: 10px;
+    padding-left: 13px;  
+ }
+.i-header .navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+.i-header .navbar .btn-info{
+    background: linear-gradient(to right , #511de5,#511de5, #0c8bfb );
+    color: #fff;
+    padding: 10px 45px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 30px;
+
+ }
+.i-header .navbar-nav .nav-item {
+    margin-left: 10px;
+    padding-left: 8px;
+ }
+.i-header .navbar-nav .s-bold{
+   font-weight: 700;
+}
+
+                            
+
+                            /* Header-section CSS Ends Here */
+
+                            /* Qutoes-section CSS Starts Here */
+.quotes-section{
+   width: 100%;
+   padding: 10px 0px;
+
+}
+.quotes-section h2{
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    color: #000;
+}
+.quotes-inner {
+    width: 100%;
+    background: url(../img/rectangle.png) center top no-repeat;
+    background-size: cover;
+    padding: 60px 20px 0px 20px ;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+
+}
+ .quotes-top{
+    width: 100%;
+    padding: 50px 0px ;
+    border-bottom: 1px solid #f4f4f4;
+}  
+ .quotes-top h3{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.qutoes-bottom {
+    width: 100%;
+    padding: 70px 0px;
+
+}
+.qutoes-bottom img{
+    margin-bottom: 20px;
+
+}
+.qutoes-bottom h4{
+    text-transform:  uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #999999;
+
+}
+.qutoes-bottom p{
+     text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999999;
+
+}
+.quotes-inner:hover .quotes-top h3 {
+    background: linear-gradient(to right , #511de5,#511de5, #0c8bfb );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.quotes-inner:hover .qutoes-bottom h4 {
+    color: #000;
+}
+
+.quotes-inner:hover .qutoes-bottom p{
+   color: #000;
+
+}
+
+                            /* Qutoes-section CSS Ends Here */
